@@ -40,7 +40,7 @@ public class Asignatura {
             
             this.creditos = creditos;
         } else {
-            throw new IllegalArgumentException("Los créditos no pueden ser negativos")
+            throw new IllegalArgumentException("Los créditos no pueden ser negativos");
         }
     }
 
