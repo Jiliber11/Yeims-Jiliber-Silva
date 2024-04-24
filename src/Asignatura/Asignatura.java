@@ -20,7 +20,6 @@ public class Asignatura {
     }
 
     
-    // Constructor sin parámetros
     public Asignatura() {
         this.creditos = 0;
         this.nombre = "";
@@ -33,7 +32,7 @@ public class Asignatura {
     }
     
     
-     // Setter para establecer los créditos
+   
     public void setCreditos(int creditos) {
         
         // Verificar que los créditos no sean negativos
@@ -41,7 +40,7 @@ public class Asignatura {
             
             this.creditos = creditos;
         } else {
-            throw new IllegalArgumentException("Los créditos no pueden ser negativos");
+            throw new IllegalArgumentException("Los créditos no pueden ser negativos")
         }
     }
 
