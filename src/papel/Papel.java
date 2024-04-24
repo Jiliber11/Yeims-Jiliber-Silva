@@ -5,9 +5,9 @@ public class Papel {
      public String color;
     public int grosor;
 
-    // Constructor por defecto
+    // Constructor 
     public Papel() {
-        // Inicializamos los atributos con valores predeterminados
+      //atributos con valores predeterminados
         this.color = "Blanco";
         this.grosor = 80;
     }
